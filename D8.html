@@ -31,6 +31,12 @@
     .myHeading {
       color: #FF00D6;
     }
+
+
+    .stili{
+      background-color: green;
+    }
+
   </style>
 </head>
 
@@ -269,7 +275,6 @@ const addClassToTitle = function () {
 
 
 
-
     // const hideFirstUl = function () {  
     //   const list = document.getElementById("firstList")
     //   list.remove()
@@ -278,29 +283,24 @@ const addClassToTitle = function () {
        Scrivi una funzione che renda verde il background di ogni lista non ordinata
       */
 
-    // const paintItGreen = function () {
-    //   const uls = document.querySelectorAll('ul')
-    //   for (let i = 0; i < uls.length; i++) {
-    //     uls[i].classList.add('bgGreen')
-    //   }
-    // }
-
-    // paintItGreen()
-
-
-
-
-
-
-
-
-
-
      const paintItGreen = function () {
-       const verde = document.querySelectorAll("ul")
-      verde.forEach((li) => (li.style.background = "green"))}
+       const uls = document.querySelectorAll('ul')
+       for (let i = 0; i < uls.length; i++) {
+         uls[i].classList.add('stli')
+       }
+      }
+     paintItGreen()
+
+
+
+
+
+    //  const paintItGreen = function () {
+    //    const verde = document.querySelectorAll("ul")
+    //    verde.setAttribute("class", "stili")
+    //  OPPURE //  verde.forEach((li) => (li.style.background = "green"))}
     
-      paintItGreen()
+    //   paintItGreen()
 
 
 
